@@ -2,7 +2,7 @@
 
 📟 A command-line calculator that evaluates mathematical expressions with proper operator precedence (PEMDAS), built as part of a Java developer internship task.
 
-![Calculator Demo](demo-main.png)
+
 
 ## ✨ Features
 ✅ **Full Operator Precedence**  
@@ -27,13 +27,23 @@
 
 ---
 
+
+## 🚀 Demonstration
+```bash
+> 5+3*9+6
+Result: 38.0
+> 25+jai*9
+Invalid input! Please try again.
+
+---
+
 ## 🛠️ Repository Contents
 Java-Console-Calculator/
 ├── Calculator.java # Main calculator code
-├── demo-main.png # Feature overview
-├── demo1.png # Basic calculation
-├── demo2.png # Error handling
-├── demo3.png # Complex expression
+├── Calculator-SS-1 # Feature overview
+├── Calculator-SS-2 # Basic calculation
+├── Calculator-SS-3 # Error handling
+├── Calculator-SS-4 # Complex expression
 └── README.md # This documentation
 
 ## 🚀 How to Run
