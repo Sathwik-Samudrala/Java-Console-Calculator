@@ -2,6 +2,23 @@
 
 📟 A command-line calculator that evaluates mathematical expressions with proper operator precedence (PEMDAS), built as part of a Java developer internship task.
 
+
+---
+
+### Screenshots
+
+![Calculator Example 1](Calculator-SS-1.png)
+*Example of basic arithmetic operations*
+
+![Calculator Example 2](Calculator-SS-2.png)
+*Example showing operator precedence*
+
+![Calculator Example 3](Calculator-SS-3.png)
+*Example of error handling*
+
+![Calculator Example 4](Calculator-SS-4.png)
+*Complex expression evaluation*
+
 ## ✨ Features
 ✅ **Full Operator Precedence**  
    - Correctly solves expressions like `5+3*2` = `11` (not `16`)  
