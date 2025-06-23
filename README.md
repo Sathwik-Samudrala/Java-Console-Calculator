@@ -2,8 +2,6 @@
 
 📟 A command-line calculator that evaluates mathematical expressions with proper operator precedence (PEMDAS), built as part of a Java developer internship task.
 
-
-
 ## ✨ Features
 ✅ **Full Operator Precedence**  
    - Correctly solves expressions like `5+3*2` = `11` (not `16`)  
@@ -45,6 +43,7 @@ Java-Console-Calculator/
 ├── Calculator-SS-3 # Error handling
 ├── Calculator-SS-4 # Complex expression
 └── README.md # This documentation
+
 
 ## 🚀 How to Run
 1. Compile:   javac Calculator.java
