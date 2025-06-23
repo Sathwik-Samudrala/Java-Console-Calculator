@@ -65,3 +65,6 @@ Java-Console-Calculator/
 ## 🚀 How to Run
 1. Compile:   javac Calculator.java
 2. run:  java Calculator
+
+
+If you found this helpful, don’t forget to ⭐ the repository.
