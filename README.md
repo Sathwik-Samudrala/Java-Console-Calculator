@@ -63,3 +63,37 @@ Through this project, I gained experience with:
 - Input validation techniques
 - Using AI as a coding assistant while maintaining full understanding
 
+## 🏗️ File Structure
+
+### 📂 `Calculator.java`
+The main implementation file containing all calculator logic:
+
+```java
+Calculator.java
+├── main()
+│   ├── Handles user I/O
+│   ├── Displays welcome banner
+│   └── Main loop for expression evaluation
+│
+├── Helper Methods
+│   ├── insertImplicitMultiplication()  // Converts 2(5) → 2*(5)
+│   ├── evaluateFunctions()            // Processes sqrt() and log()
+│   ├── isBalanced()                   // Checks parentheses balance
+│   └── getValidationError()           // Validates input syntax
+│
+├── Core Evaluation Logic
+│   ├── evaluate()                     // Handles parentheses recursively
+│   ├── evaluateFlat()                 // Processes flat expressions
+│   └── compute()                      // Performs arithmetic operations
+│
+└── Math Operations
+    ├── add(), sub(), mul(), div()
+    ├── pow(), mod()
+    └── findLeft()/findRight()         // Operand boundary detection
+
+
+##  Description
+
+The Java Console Calculator is a feature-rich command-line application designed to evaluate complex mathematical expressions with precision and ease.
+Built entirely in Java, this project demonstrates the power of combining core programming concepts with modern development tools like AI assistance and 
+online resources.
