@@ -63,9 +63,3 @@ Through this project, I gained experience with:
 - Input validation techniques
 - Using AI as a coding assistant while maintaining full understanding
 
-##  Description
-
-The Java Console Calculator is a feature-rich command-line application 
-designed to evaluate complex mathematical expressions with precision and ease. 
-Built entirely in Java, this project demonstrates the power of combining core programming 
-concepts with modern development tools like AI assistance and online resources.
