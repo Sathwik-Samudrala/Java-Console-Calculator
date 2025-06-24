@@ -58,11 +58,6 @@ javac Calculator.java
 # Run the calculator
 java Calculator
 
-# Example session:
-- 2*(3+sqrt(16))
-- Result: 14.0
-- quit
-- Calculator closed. Goodbye!
  ## 📋 Project Description
 
 A robust, feature-rich command-line calculator application built with Java that combines mathematical precision with intuitive usability. This calculator implements advanced expression parsing and evaluation while maintaining clean, object-oriented design principles.
