@@ -2,6 +2,13 @@
 
 A feature command-line calculator built with Java that handles basic and advanced mathematical operations.
 
+## 📸 Screenshots
+
+| Feature Demo | Error Handling |
+|--------------|----------------|
+| <img src="Calculator-SS-1.png" width="400"/> | <img src="Calculator-SS-2.png" width="400"/> |
+| *Basic operations and implicit multiplication* | *Error cases and advanced functions* |
+
 ## Features
 
 - **Basic Operations**: `+`, `-`, `*`, `/`, `%` (modulo)
