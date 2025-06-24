@@ -1,94 +1,70 @@
-# Java Console Calculator
+# 🧮 Java Console Calculator
 
-A feature command-line calculator built with Java that handles basic and advanced mathematical operations.
+A robust command-line calculator built with Java that handles both basic and advanced mathematical operations with intelligent parsing.
 
-## 📸 Screenshots
+## ✨ Features
 
-| Feature Demo | Error Handling |
-|--------------|----------------|
-| <img src="Calculator-SS-1.png" width="400"/> | <img src="Calculator-SS-2.png" width="400"/> |
-| *Basic operations and implicit multiplication* | *Error cases and advanced functions* |
+### 🔢 Basic Operations
+- Addition (`+`), Subtraction (`-`)
+- Multiplication (`*`), Division (`/`)
+- Modulo (`%`) 
 
-## Features
+### 📊 Advanced Functions
+- Exponentiation: `2^3` = 8
+- Square root: `sqrt(25)` = 5
+- Base-10 logarithm: `log(100)` = 2
 
-- **Basic Operations**: `+`, `-`, `*`, `/`, `%` (modulo)
-- **Advanced Functions**:
-  - Power: `^` (e.g., `2^3 = 8`)
-  - Square root: `sqrt()` (e.g., `sqrt(25) = 5`)
-  - Logarithm (base 10): `log()` (e.g., `log(100) = 2`)
-- **Smart Parsing**:
-  - Implicit multiplication (e.g., `2(5)` becomes `2*(5)`)
-  - Parentheses handling with proper nesting
-- **Error Handling**:
-  - Clear error messages for invalid inputs
-  - Division/modulo by zero protection
-  - Balanced parentheses checking
+### 🧠 Smart Parsing
+- Implicit multiplication: `2(5)` → `2*(5)`
+- Nested parentheses: `3*(2+(4/2))`
+- Automatic whitespace removal
 
-## Development Journey
+### 🛡️ Error Handling
+- Clear error messages for:
+  - Invalid characters
+  - Unbalanced parentheses
+  - Division by zero
+  - Invalid function calls
+ 
+  ## 🖥️ Demonstration
 
-This project was built by combining:
+### Successful Calculations
+![Calculator Output 1](Calculator-SS-1.png)
+*Examples showing correct calculations including:*
+- Basic arithmetic: `5 + 3 - 2 + 1`
+- Parentheses handling: `(6 + 2) * (5 - 3)`
+- Implicit multiplication: `5(2 + 3) - 4`
+- Mixed operations: `10 % 4 + 2 * 3`
 
-1. **Core Java knowledge** (variables, methods, control flow)
-2. **AI assistance** for:
-   - Complex expression parsing logic
-   - Edge case handling
-   - Code optimization suggestions
-3. **Online resources** (YouTube tutorials, Stack Overflow)
+### Error Handling
+![Calculator Output 2](Calculator-SS-2.png)
+*Examples showing robust error handling for:*
+- Division by zero: `4 / 0`
+- Invalid characters: `abc + 2`
+- Unbalanced parentheses: `2 + (3 * 4`
+- Syntax errors: `* 6 + 2`
 
-## How to Run
+## 🚀 Getting Started
 
-1. Compile: `javac Calculator.java`
-2. Execute: `java Calculator`
-3. Enter expressions when prompted (e.g., `2*(3+sqrt(16))`)
-4. Type `quit` to exit
+### Prerequisites
+- Java JDK 8+ installed
+- Command line terminal
 
-## Example Calculations
+### Installation & Usage
 
-5 + 3*(2^4)
-Result: 53.0
+# Compile the program
+javac Calculator.java
 
-sqrt(9) + log(100)
-Result: 5.0
+# Run the calculator
+java Calculator
 
-2(5+1)
-Result: 12.0
+# Example session:
+> 2*(3+sqrt(16))
+Result: 14.0
+> quit
+Calculator closed. Goodbye!
+> 
+ ## 📋 Project Description
 
-
-## Learning Outcomes
-
-Through this project, I gained experience with:
-- String manipulation and regular expressions
-- Mathematical expression evaluation
-- Recursive problem solving
-- Input validation techniques
-- Using AI as a coding assistant while maintaining full understanding
-
-## 🏗️ File Structure
-
-### 📂 `Calculator.java`
-The main implementation file containing all calculator logic:
-
-```java
-Calculator.java
-├── main()
-│   ├── Handles user I/O
-│   ├── Displays welcome banner
-│   └── Main loop for expression evaluation
-│
-├── Helper Methods
-│   ├── insertImplicitMultiplication()  // Converts 2(5) → 2*(5)
-│   ├── evaluateFunctions()            // Processes sqrt() and log()
-│   ├── isBalanced()                   // Checks parentheses balance
-│   └── getValidationError()           // Validates input syntax
-│
-├── Core Evaluation Logic
-│   ├── evaluate()                     // Handles parentheses recursively
-│   ├── evaluateFlat()                 // Processes flat expressions
-│   └── compute()                      // Performs arithmetic operations
-│
-└── Math Operations
-    ├── add(), sub(), mul(), div()
-    ├── pow(), mod()
-    └── findLeft()/findRight()         // Operand boundary detection
-
+A robust, feature-rich command-line calculator application built with Java that combines mathematical precision with intuitive usability. This calculator implements advanced expression parsing and evaluation while maintaining clean, object-oriented design principles.
 
